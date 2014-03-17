@@ -24,10 +24,10 @@ for i=1:test_scale(1)
         dist(j) = sqrt(dis);
         label(j) = train_set(j,1);        
     end
-    dist = sort(dist);
-    idx1 = find(dist==dist(1));
-    idx2 = find(dist==dist(2));
-    idx3 = find(dist==dist(3));
+    dist_tmp = sort(dist);
+    idx1 = find(dist==dist_tmp(1));
+    idx2 = find(dist==dist_tmp(2));
+    idx3 = find(dist==dist_tmp(3));
     c1 = label(idx1);
     c2 = label(idx2);
     c3 = label(idx3);
