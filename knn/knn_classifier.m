@@ -24,6 +24,7 @@ for i=1:test_scale(1)
         dist(j) = sqrt(dis);
         label(j) = train_set(j,1);        
     end
+    % find the 3-nearest neighbor 
     dist_tmp = sort(dist);
     idx1 = find(dist==dist_tmp(1));
     idx2 = find(dist==dist_tmp(2));
@@ -31,6 +32,8 @@ for i=1:test_scale(1)
     c1 = label(idx1);
     c2 = label(idx2);
     c3 = label(idx3);
+    
+    % classification 
     if(c1==c2||c1==c3) 
         test_label(i) = c1;
     elseif (c2==c3)
