@@ -4,6 +4,6 @@ In this project, I try different classification methods to recognize the digits 
 <h2>Classification Methods</h2>
 <ul>
 <li>
-KNN: accuracy 96.64%
+KNN: accuracy 96.64% running time: ~2 hours
 </li>
 </ul>
