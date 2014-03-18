@@ -13,6 +13,6 @@ Linear kernel SVM: accuracy 93.98%, training time &#8776 10min, testing_time &#8
 Polynomial kernel SVM with degree 2: accuracy 91.35%, training time &#8776 20min, testing_time &#8776 8min
 </li>
 <li>
-Radial basis kernel SVM with gamma 0.5: accuracy 94.46%, training time + testing time &#8776 20min
+Radial basis kernel SVM with default C and gamma: accuracy 94.46%, training time + testing time &#8776 20min
 </li>
 </ul>
