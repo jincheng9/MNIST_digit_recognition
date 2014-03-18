@@ -4,9 +4,9 @@ In this project, I try different classification methods to recognize the digits 
 <h2>Classification Methods</h2>
 <ul>
 <li>
-KNN: accuracy 96.64%, running time: ~2 hours
+KNN: accuracy 96.64%, running time: &#8776 2 hours
 </li>
 <li>
-Linear kenrel SVM: accuracy 93.98%, training time &lt 10min, testing_time &#60 3min
+Linear kenrel SVM: accuracy 93.98%, training time &#60 10min, testing_time &#60 3min
 </li>
 </ul>
