@@ -7,7 +7,6 @@ In this project, I try different classification methods to recognize the digits 
 KNN: accuracy 96.64%, running time: ~2 hours
 </li>
 <li>
-Linear kenrel SVM: accuracy 93.98% <br> 
-training time ~ 10min, testing_time ~ 3min
+Linear kenrel SVM: accuracy 93.98%, training time &lt 10min, testing_time &lt 3min
 </li>
 </ul>
