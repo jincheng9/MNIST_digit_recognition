@@ -1,49 +1,47 @@
-% load and divide the training set 
+% load training set and testing set
 clear all;
-data = load('train.mat');
-data = data.train;
-data_scale = size(data);
-train_set = data(1:data_scale(1)*2/3, :);
-test_set = data(data_scale(1)*2/3+1:data_scale(1), :);
+train_set = loadMNISTImages('train-images.idx3-ubyte')';
+train_label = loadMNISTLabels('train-labels.idx1-ubyte');
+test_set = loadMNISTImages('t10k-images.idx3-ubyte')';
+test_label = loadMNISTLabels('t10k-labels.idx1-ubyte');
 
 % classify the testing set 
 train_scale = size(train_set);
 test_scale = size(test_set);
-test_label = zeros(test_scale(1),1);
+test_classify_label = zeros(test_scale(1),1);
 for i=1:test_scale(1)
-    test_point = test_set(i,2:test_scale(2));
+    test_point = test_set(i,:);
     dist = zeros(train_scale(1),1);
-    label = zeros(train_scale(1), 1);
     for j=1:train_scale(1)
         % calculate the distance between test point i and train point j
-        train_point = train_set(j, 2:train_scale(2));
+        train_point = train_set(j, :);
         dis = 0.0;
-        for k=1:test_scale(2)-1
+        for k=1:test_scale(2)
             dis  = dis + (test_point(k)-train_point(k))*(test_point(k)-train_point(k));
         end
-        dist(j) = sqrt(dis);
-        label(j) = train_set(j,1);        
+        dist(j) = sqrt(dis);       
     end
+    
     % find the 3-nearest neighbor 
     dist_tmp = sort(dist);
     idx1 = find(dist==dist_tmp(1));
     idx2 = find(dist==dist_tmp(2));
     idx3 = find(dist==dist_tmp(3));
-    c1 = label(idx1);
-    c2 = label(idx2);
-    c3 = label(idx3);
+    c1 = train_label(idx1);
+    c2 = train_label(idx2);
+    c3 = train_label(idx3);
     
     % classification 
     if(c1==c2||c1==c3) 
-        test_label(i) = c1;
+        test_classify_label(i) = c1;
     elseif (c2==c3)
-        test_label(i) = c2;
-    else test_label(i) = c3;
+        test_classify_label(i) = c2;
+    else test_classify_label(i) = c3;
     end
 end
 
 % calculate accuracy
-num_correct = sum(test_set(:,1)==test_label);
+num_correct = sum(test_label==test_classify_label);
 accuracy = num_correct / test_scale(1);
 
 
