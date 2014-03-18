@@ -8,6 +8,6 @@ KNN: accuracy 96.64%, running time: ~2 hours
 </li>
 <li>
 Linear kenrel SVM: accuracy 93.98% <br> 
-training time < 10min, testing_time < 3min
+training time ~ 10min, testing_time ~ 3min
 </li>
 </ul>
