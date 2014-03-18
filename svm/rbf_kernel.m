@@ -6,7 +6,7 @@ test_set = loadMNISTImages('t10k-images.idx3-ubyte')';
 test_label = loadMNISTLabels('t10k-labels.idx1-ubyte');
 
 % training 
-model = svmtrain(train_label, train_set, '-s 0 -t 2 -g 0.5');
+model = svmtrain(train_label, train_set, '-s 0 -t 2');
 
 % classification
 [predicted_label, accuracy, decision_values]=svmpredict(test_label, test_set, model);
