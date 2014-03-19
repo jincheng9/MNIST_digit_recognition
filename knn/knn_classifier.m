@@ -15,8 +15,8 @@ for i=1:test_scale(1)
     for j=1:train_scale(1)
         % calculate the distance between test point i and train point j
         train_point = train_set(j, :);
-        tmp = test_point - train_point;
-		dist(j) = sqrt(sum(tmp.*tmp));
+        tmp = test_point - train_point; 
+        dist(j) = sqrt(sum(tmp.*tmp));
     end
     
     % find the 3-nearest neighbor 
