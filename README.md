@@ -2,7 +2,8 @@
 In this project, I try different classification methods to recognize the digits in the MNIST data set.
 
 <h2>MNIST Data Set</h2>
-
+There are 60000 training samples and 10000 testing samples in the MNIST data set. 
+Detailed description about this data set could be found via http://yann.lecun.com/exdb/mnist/index.html. 
 <h2>Features</h2>
 
 <h2>Classification Methods</h2>
