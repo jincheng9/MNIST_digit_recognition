@@ -15,7 +15,7 @@ K = 10; % number of output layer units
 % initialize all weights between -1 and 1
 W1 = 2*rand(1+D, n_hidden)-1; % weight matrix from input layer to hidden layer
 W2 = 2*rand(n_hidden, K)-1; % weight matrix from hidden layer to ouput layer
-max_iter = 20; % number of iterations
+max_iter = 100; % number of iterations
 Y = eye(K); % output vector 
 
 % training 
@@ -43,7 +43,7 @@ for i=1:test_size(1)
     input_x = [1; test_set(i,:)'];
     hidden_output = sigmf(W1'*input_x, [1 0]);
     output = sigmf(W2'*hidden_output, [1 0]);
-    [max_idx, max_unit] = max(output);
+    [max_unit, max_idx] = max(output);
     if(max_idx == test_label(i)+1)
         num_correct = num_correct + 1;
     end
