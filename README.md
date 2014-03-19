@@ -27,3 +27,10 @@ Artificial Neural Network with 1 hidden layer (784-300-10): accuracy 97.51%, tra
 </ul>
 
 <h2>Usage</h2>
+Since I use stanford's matlab function "loadMNISTImages" and "loadMNISTLabels" to load the data, you need to download theese two functions first. The link is as follows:
+http://ufldl.stanford.edu/wiki/index.php/Using_the_MNIST_Dataset <br>
+
+If you want to test a specific classification method of mine, you need to put loadMNISTImages.m, loadMNISTLabels.m, the data set and my code in the same directory. 
+And then you just need to type the file name to run my code. I add detailed comments for my code, which should be useful if you want to modify my code. 
+
+
