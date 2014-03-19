@@ -8,7 +8,7 @@ In this project, I try different classification methods to recognize the digits 
 <h2>Classification Methods</h2>
 <ul>
 <li>
-KNN: accuracy 96.64%, running time &#8776 2 hours
+KNN: accuracy 97.04%, running time &#8776 3 hours
 </li>
 <li>
 Linear kernel SVM: accuracy 93.98%, training time &#8776 10min, testing_time &#8776 3min
