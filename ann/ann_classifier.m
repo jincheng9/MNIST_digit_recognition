@@ -15,7 +15,7 @@ K = 10; % number of output layer units
 % initialize all weights between -1 and 1
 W1 = 2*rand(1+D, n_hidden)-1; % weight matrix from input layer to hidden layer
 W2 = 2*rand(n_hidden, K)-1; % weight matrix from hidden layer to ouput layer
-max_iter = 100; % number of iterations
+max_iter = 20; % number of iterations
 Y = eye(K); % output vector 
 
 % training 
