@@ -11,4 +11,3 @@ model = svmtrain(train_label, train_set, '-s 0 -t 0');
 % classification
 [predicted_label, accuracy, decision_values]=svmpredict(test_label, test_set, model);
 
-
