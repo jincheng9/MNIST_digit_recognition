@@ -43,7 +43,7 @@ for i=1:test_size(1)
     input_x = [1; test_set(i,:)'];
     hidden_output = sigmf(W1'*input_x, [1 0]);
     output = sigmf(W2'*hidden_output, [1 0]);
-    [max_idx, max] = max(output);
+    [max_idx, max_unit] = max(output);
     if(max_idx == test_label(i)+1)
         num_correct = num_correct + 1;
     end
