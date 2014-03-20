@@ -31,7 +31,9 @@ Artificial Neural Network with 1 hidden layer (784-300-10): <br>
 300 iterations: accuracy 97.56%, training time + testing time &#8776 2hr 30min
 </li>
 <li>
-Convolutional Neural Network
+Convolutional Neural Network: <br>
+1 epoch: accuracy 88.17%, running time 90s
+100 epochs: 
 </li>
 </ul>
 
