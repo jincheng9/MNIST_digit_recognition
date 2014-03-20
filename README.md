@@ -5,8 +5,8 @@ In this project, I try different classification methods to recognize the digits 
 There are 60000 training samples and 10000 testing samples in the MNIST data set. 
 Detailed description about this data set could be found via http://yann.lecun.com/exdb/mnist/index.html. 
 <h2>Features</h2>
-Each training sample and testing sample is represented by a 28x28 pixel image. 
-In the data set, each sample is represented by 28x28=784 dimensional vector. I directly use this vector as the feature vector of each sample. 
+Each digit image is 28x28 pixel. 
+In the data set, each sample is represented by a 28x28=784 dimensional vector. I directly use this vector as the feature vector of each sample. 
 <h2>Classification Methods</h2>
 <ul>
 <li>
@@ -40,6 +40,6 @@ Since I use stanford's matlab function "loadMNISTImages" and "loadMNISTLabels" t
 http://ufldl.stanford.edu/wiki/index.php/Using_the_MNIST_Dataset <br>
 
 If you want to test a specific classification method of mine, you need to put loadMNISTImages.m, loadMNISTLabels.m, the data set and my code in the same directory. 
-And then you just need to type the file name to run my code. I add detailed comments for my code, which should be useful if you want to modify my code. 
+And then you just need to type the file name to run my code in MATLAB. I add detailed comments for my code, which should be useful if you want to modify my code. 
 
 
