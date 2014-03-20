@@ -1,8 +1,8 @@
 % load training set and testing set
 clear all;
 train_set = loadMNISTImages('train-images.idx3-ubyte')'; % 60000 x 784
-train_label = loadMNISTLabels('train-labels.idx1-ubyte'); % 10000 x 784
-test_set = loadMNISTImages('t10k-images.idx3-ubyte')'; % 60000 x 1
+train_label = loadMNISTLabels('train-labels.idx1-ubyte'); % 60000 x 1
+test_set = loadMNISTImages('t10k-images.idx3-ubyte')'; % 10000 x 784
 test_label = loadMNISTLabels('t10k-labels.idx1-ubyte'); % 10000 x 1
 
 % trasform the data format 
@@ -20,8 +20,8 @@ for i=1:test_size(1)
 end
 
 % use the code of DeepLearnToolbox
-train_x = double(reshape(train_set',28,28,60000))/255;
-test_x = double(reshape(test_set',28,28,10000))/255;
+train_x = double(reshape(train_set',28,28,60000));
+test_x = double(reshape(test_set',28,28,10000));
 train_y = double(train_y');
 test_y = double(test_y');
 
