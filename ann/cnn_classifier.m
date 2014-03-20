@@ -38,7 +38,7 @@ cnn = cnnsetup(cnn, train_x, train_y);
 
 opts.alpha = 1;
 opts.batchsize = 50;
-opts.numepochs = 1;
+opts.numepochs = 100;
 
 cnn = cnntrain(cnn, train_x, train_y, opts);
 
