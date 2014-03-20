@@ -10,16 +10,20 @@ In the data set, each sample is represented by 28x28=784 dimensional vector. I d
 <h2>Classification Methods</h2>
 <ul>
 <li>
-KNN: accuracy 97.04%, running time &#8776 3hr
+KNN: <br>
+accuracy 97.04%, running time &#8776 3hr
 </li>
 <li>
-Linear kernel SVM: accuracy 93.98%, training time &#8776 10min, testing_time &#8776 3min
+Linear kernel SVM: <br>
+accuracy 93.98%, training time &#8776 10min, testing_time &#8776 3min
 </li>
 <li>
-Polynomial kernel SVM with degree 2: accuracy 91.35%, training time &#8776 20min, testing_time &#8776 8min
+Polynomial kernel SVM with degree 2: <br>
+accuracy 91.35%, training time &#8776 20min, testing_time &#8776 8min
 </li>
 <li>
-Radial basis kernel SVM with default gamma: accuracy 94.46%, training time + testing time &#8776 20min
+Radial basis kernel SVM with default gamma: <br>
+accuracy 94.46%, training time + testing time &#8776 20min
 </li>
 <li>
 Artificial Neural Network with 1 hidden layer (784-300-10): <br>
