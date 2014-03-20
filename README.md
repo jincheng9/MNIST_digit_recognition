@@ -22,7 +22,12 @@ Polynomial kernel SVM with degree 2: accuracy 91.35%, training time &#8776 20min
 Radial basis kernel SVM with default gamma: accuracy 94.46%, training time + testing time &#8776 20min
 </li>
 <li>
-Artificial Neural Network with 1 hidden layer (784-300-10): accuracy 97.51%, training time + testing time &#8776 50min
+Artificial Neural Network with 1 hidden layer (784-300-10): <br>
+100 iterations: accuracy 97.51%, training time + testing time &#8776 50min <br>
+300 iterations: accuracy 97.56%, training time + testing time &#8776 2hr 30min
+</li>
+<li>
+Convolutional Neural Network
 </li>
 </ul>
 
