@@ -7,7 +7,7 @@ Detailed description about this data set could be found via http://yann.lecun.co
 Notice that the MNIST data set has been normalized, ranging from 0 to 1. 
 <h2>Features</h2>
 Each digit image is 28x28 pixel. 
-In the data set, each sample is represented by a 28x28=784 dimensional vector. I directly use this vector as the feature vector of each sample. 
+In the data set, each sample is represented by a normalized 28x28=784 dimensional vector. I directly use this vector as the feature vector of each sample. 
 <h2>Classification Methods</h2>
 <ul>
 <li>
