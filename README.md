@@ -33,7 +33,7 @@ Artificial Neural Network with 1 hidden layer (784-300-10): <br>
 </li>
 <li>
 Convolutional Neural Network: <br>
-1 epoch: accuracy 88.17%, running time 90s <br>
+1 epoch: accuracy 88.17%, training time + testing time &#8776 90s <br>
 100 epochs: accuracy 98.85%, training time + testing time &#8776 2hr 30min
 </li>
 </ul>
