@@ -12,7 +12,7 @@ In the data set, each sample is represented by a 28x28=784 dimensional vector. I
 <ul>
 <li>
 KNN: <br>
-accuracy 97.04%, running time &#8776 3hr
+accuracy 97.04%, no training time, testing time &#8776 3hr
 </li>
 <li>
 Linear kernel SVM: <br>
@@ -34,7 +34,7 @@ Artificial Neural Network with 1 hidden layer (784-300-10): <br>
 <li>
 Convolutional Neural Network: <br>
 1 epoch: accuracy 88.17%, running time 90s <br>
-100 epochs: accuracy 98.85%, running time 2hr 30min
+100 epochs: accuracy 98.85%, training time + testing time &#87762hr 30min
 </li>
 </ul>
 
