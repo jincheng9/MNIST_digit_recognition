@@ -4,7 +4,7 @@ In this project, I try different classification methods to recognize the digits 
 <h2>MNIST Data Set</h2>
 There are 60000 training samples and 10000 testing samples in the MNIST data set. 
 Detailed description about this data set could be found via http://yann.lecun.com/exdb/mnist/index.html. 
-Notice that the MNIST data set has been normalized, ranging from 0 to 1. 
+Notice that the MNIST data set has been normalized to [0 1]. 
 <h2>Features</h2>
 Each digit image is 28x28 pixel. 
 In the data set, each sample is represented by a normalized 28x28=784 dimensional vector. I directly use this vector as the feature vector of each sample. 
