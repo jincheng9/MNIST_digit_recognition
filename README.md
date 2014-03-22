@@ -39,7 +39,7 @@ Convolutional Neural Network: <br>
 </ul>
 
 <h2>Usage</h2>
-Since I use stanford's matlab function "loadMNISTImages" and "loadMNISTLabels" to load the data, you need to download theese two functions first. The link is as follows:
+Since I use stanford's matlab function "loadMNISTImages" and "loadMNISTLabels" to load the data, you need to download these two functions first. The link is as follows:
 http://ufldl.stanford.edu/wiki/index.php/Using_the_MNIST_Dataset <br>
 
 If you want to test a specific classification method of mine, you need to put loadMNISTImages.m, loadMNISTLabels.m, the data set and my code in the same directory. 
