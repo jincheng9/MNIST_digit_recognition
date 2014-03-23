@@ -104,13 +104,13 @@ end
 accuracy = num_correct/test_size(1);
 
 </code></pre>
-<h2>Usage</h2>
-1. Modify the code based on your usage
-2. Run the code
-Since I use stanford's matlab function "loadMNISTImages" and "loadMNISTLabels" to load the data, you need to download these two functions first. The link is as follows:
-http://ufldl.stanford.edu/wiki/index.php/Using_the_MNIST_Dataset <br>
 
-If you want to test a specific classification method of mine, you need to put loadMNISTImages.m, loadMNISTLabels.m, the data set and my code in the same directory. 
-And then you just need to type the file name to run my code in MATLAB. I add detailed comments for my code, which should be useful if you want to modify my code. 
+<h2> References </h2>
+<ul>
+<li>http://ufldl.stanford.edu/wiki/index.php/Using_the_MNIST_Dataset </li>
+<li>https://github.com/cjlin1/libsvm</li>
+<li>https://github.com/rasmusbergpalm/DeepLearnToolbox</li>
+</ul>
+
 
 
