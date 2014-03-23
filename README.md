@@ -49,7 +49,7 @@ ann/ - A library of feedforward neural network and convoluntional neural network
 2. addpath(genpath('MNIST_digit_recognition'));
 
 <h2> Example </h2>
-<code>
+<xmp>
 % load training set and testing set
 clear all;
 train_set = loadMNISTImages('train-images.idx3-ubyte')';
@@ -103,7 +103,7 @@ end
 % accuracy
 accuracy = num_correct/test_size(1);
 
-</code>
+</xmp>
 <h2>Usage</h2>
 1. Modify the code based on your usage
 2. Run the code
