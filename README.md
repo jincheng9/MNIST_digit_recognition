@@ -118,7 +118,7 @@ accuracy = num_correct/test_size(1);
 </ul>
 
 <h2> Remark </h2>
-If you are tesing CNN using Octave, please pay attention to the Octave version because there is a bug in the previous versions.
+If you are testing CNN using Octave, please pay attention to the Octave version because there is a bug in the previous versions.
 <br>
 error: Octave 3.8.0 or greater is required for CNNs as there is a bug in convolution in previous versions.
 
