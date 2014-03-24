@@ -42,8 +42,8 @@ Convolutional Neural Network: <br>
 <h2>Directories included in the toolbox</h2>
 load_data/ - data set and functions to load the data <br>
 knn/ - 3-nearest neighborhood classifier <br>
-svm/ - A library of linear, polynomial and RBF classifier <br>
-ann/ - A library of feedforward neural network and convoluntional neural network <br>
+svm/ - A library of linear, polynomial and RBF classifier based on libsvm <br>
+ann/ - A library of feedforward neural network and convoluntional neural network (CNN is based on DeepLearnToolbox) <br>
 
 <h2> Setup</h2>
 1. Download <br>
