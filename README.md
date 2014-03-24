@@ -30,7 +30,7 @@ accuracy 94.46%, training time + testing time &#8776 20min
 Artificial Neural Network with 1 hidden layer (784-300-10): <br>
 1 iteration: accuracy 87.95%, training time + testing time &#8776 1min 30s <br>
 20 iterations: accuracy 96.33%, training time + testing time &#8776 10min <br>
-100 iterations: accuracy 97.56%, training time + testing time &#8776 2hr 30min
+100 iterations: accuracy 97.94%, training time + testing time &#8776 2hr 30min
 </li>
 <li>
 Convolutional Neural Network: <br>
