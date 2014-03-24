@@ -33,7 +33,7 @@ for i=1:max_iter
         delta_c = (output-Y(:,train_label(j)+1)).*output.*(1-output);
         % compute the error of hidden unit h
         delta_h = (W2*delta_c).*(hidden_output).*(1-hidden_output);
-		delta_h = delta_h(2:end);
+        delta_h = delta_h(2:end);
         % update weight matrix
         W1 = W1 - alpha*(input_x*delta_h');
         W2 = W2 - alpha*(hidden_output*delta_c');
@@ -52,7 +52,7 @@ for i=1:test_size(1)
         num_correct = num_correct + 1;
     end
 end
-% accuracy
+% computing accuracy
 accuracy = num_correct/test_size(1);
 
 
