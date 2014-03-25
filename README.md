@@ -50,7 +50,7 @@ ann/ - A library of feedforward neural network and convoluntional neural network
 2. addpath(genpath('MNIST_digit_recognition'));
 
 <h2> Example </h2>
-```
+```matlab
 % load training set and testing set
 clear all;
 train_set = loadMNISTImages('train-images.idx3-ubyte')';
