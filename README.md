@@ -12,25 +12,25 @@ In the data set, each sample is represented by a normalized 28x28=784 dimensiona
 <ul>
 <li>
 KNN: <br>
-accuracy 97.04%, no training time, testing time &#8776 3hr
+accuracy 97.05%, no training time, testing time &#77min
 </li>
 <li>
 Linear kernel SVM: <br>
-accuracy 93.98%, training time &#8776 10min, testing_time &#8776 3min
+accuracy 93.98%, training time &#8776 6.658min, testing_time &#8776 2.76min
 </li>
 <li>
 Polynomial kernel SVM with degree 2: <br>
-accuracy 91.35%, training time &#8776 20min, testing_time &#8776 8min
+accuracy 98.08%, training time &#8776 3.9min, testing_time &#8776 2.4min
 </li>
 <li>
 Radial basis kernel SVM with default gamma: <br>
-accuracy 94.46%, training time + testing time &#8776 20min
+accuracy 94.46%, training time &#8776 10.43, testing time &#8776 4.84min
 </li>
 <li>
 Artificial Neural Network with 1 hidden layer (784-300-10): <br>
-1 iteration: accuracy 87.95%, training time + testing time &#8776 1min 30s <br>
-20 iterations: accuracy 96.33%, training time + testing time &#8776 10min <br>
-100 iterations: accuracy 97.94%, training time + testing time &#8776 1hr
+1 iteration: accuracy 87.17% <br>
+20 iterations: accuracy 96.19% <br>
+100 iterations: accuracy 97.94% <br>
 </li>
 <li>
 Convolutional Neural Network: <br>
