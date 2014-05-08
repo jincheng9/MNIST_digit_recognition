@@ -24,7 +24,7 @@ accuracy 98.08%, training time &#8776 3.9min, testing_time &#8776 2.4min
 </li>
 <li>
 Radial basis kernel SVM with default gamma: <br>
-accuracy 94.46%, training time &#8776 10.43, testing time &#8776 4.84min
+accuracy 94.46%, training time &#8776 10.43min, testing time &#8776 4.84min
 </li>
 <li>
 Artificial Neural Network with 1 hidden layer (784-300-10): <br>
