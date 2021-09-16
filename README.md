@@ -50,7 +50,7 @@ ann/ - A library of fully connected feedforward neural network and convolutional
 2. addpath(genpath('MNIST_digit_recognition'));
 
 <h2> Example </h2>
-```matlab
+```Matlab
 % load training set and testing set
 clear all;
 train_set = loadMNISTImages('train-images.idx3-ubyte')';
@@ -107,7 +107,6 @@ for i=1:test_size(1)
 end
 % computing accuracy
 accuracy = num_correct/test_size(1);
-
 ```
 
 <h2> References </h2>
